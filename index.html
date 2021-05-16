@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/fav-icon.png" type="image/x-icon">
+    <title>Churrascometro</title>
+</head>
+
+<body>
+
+    <header class="menu">
+        <!-- <img src="./assets/img/Logo_churrascometro.png" alt="logo"> -->
+    </header>
+
+    <div class="formContainer">
+
+        <h1>Churrascômetro</h1>
+
+        <input id="homens" type="number" name="homens" placeholder="Homens">
+        <input id="mulheres" type="number" name="mulheres" placeholder="Mulheres">
+        <input id="criancas" type="number" name="criancas" placeholder="Crianças">
+
+        <select name="list" id="duracao">
+            <option value="3">Menos de 3h</option>
+            <option value="4">Entre 3h e 5h</option>
+            <option value="5">Acima de 5h</option>
+        </select>
+
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="resultado">
+
+        </div>
+
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

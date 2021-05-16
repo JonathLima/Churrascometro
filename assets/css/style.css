@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(14, 227, 153);
+    background: linear-gradient(10deg, rgba(15, 227, 153, 1) 0%, rgba(47, 130, 244, 1) 61%, rgba(0, 110, 233, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu {
+    margin-top: 80px;
+    
+    display: flex;
+}
+
+.menu img {
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: -15px;
+    width: 150px;
+}
+
+.formContainer {
+    max-width: 300px;
+    min-height: 350px;
+    margin: auto;
+    background-color: rgb(230, 62, 40);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.24);
+}
+
+h1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+input, select {
+    outline: none;
+    font-size: 1rem;
+    width: 100%;
+    display: block;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+button {
+    outline: none;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: teal;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#resultado {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    color: white;
+    font-family: sans-serif;
+}
