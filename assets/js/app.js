@@ -10,8 +10,6 @@ let inputCriancas = document.getElementById("criancas");
 let inputDuracao = document.getElementById("duracao");
 
 
-function calcular() {
-
     let homens = Number(inputHomens.value);
     let mulheres = Number(inputMulheres.value);
     let criancas = Number(inputCriancas.value);
@@ -30,7 +28,6 @@ function calcular() {
     resultado.innerHTML += `<p>${Math.ceil(qtdTotalBebidas / 2000)} Garrafa de Bebidas</p>`
 
 
-}
 
 function carnePP(duracao) {
 
