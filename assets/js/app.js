@@ -8,8 +8,11 @@ let inputHomens = document.getElementById("homens");
 let inputMulheres = document.getElementById("mulheres");
 let inputCriancas = document.getElementById("criancas");
 let inputDuracao = document.getElementById("duracao");
+let btn = document.getElementById('btn');
 
-function calcular(){
+// Função para calcular a quantidade por pessoa 
+
+btn.addEventListener("click", () => {
 
     let homens = Number(inputHomens.value);
     let mulheres = Number(inputMulheres.value);
@@ -28,7 +31,8 @@ function calcular(){
     resultado.innerHTML += `<p>${Math.ceil(qtdTotalCerveja / 355)} Latas de Cerveja</p>`
     resultado.innerHTML += `<p>${Math.ceil(qtdTotalBebidas / 2000)} Garrafa de Bebidas</p>`
 
-}
+})
+
 
 function carnePP(duracao) {
 
